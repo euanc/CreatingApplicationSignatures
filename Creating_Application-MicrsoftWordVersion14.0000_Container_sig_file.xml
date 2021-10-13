@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContainerSignatureMapping schemaVersion="1.0" signatureVersion="1">
+	<ContainerSignatures>
+		<ContainerSignature Id="1000" ContainerType="ZIP">
+			<Description>Microsoft Word Version 14.0000</Description>
+			<Files>
+				<File>
+					<Path>docProps/app.xml</Path>
+					<BinarySignatures>
+						<InternalSignatureCollection>
+							<InternalSignature ID="1000">
+								<ByteSequence>
+									<SubSequence MinFragLength="0" Position="1" SubSeqMinOffset="0">
+										<Sequence>3C4170706C69636174696F6E3E4D6963726F736F6674204F666669636520576F72643C2F4170706C69636174696F6E3E</Sequence>
+										<DefaultShift>49</DefaultShift>
+										<Shift Byte="3C">14</Shift>
+										<Shift Byte="41">12</Shift>
+										<Shift Byte="70">10</Shift>
+										<Shift Byte="6C">9</Shift>
+										<Shift Byte="69">4</Shift>
+										<Shift Byte="63">7</Shift>
+										<Shift Byte="61">6</Shift>
+										<Shift Byte="74">5</Shift>
+										<Shift Byte="6F">3</Shift>
+										<Shift Byte="6E">2</Shift>
+										<Shift Byte="3E">1</Shift>
+										<Shift Byte="4D">35</Shift>
+										<Shift Byte="72">16</Shift>
+										<Shift Byte="73">30</Shift>
+										<Shift Byte="66">23</Shift>
+										<Shift Byte="20">19</Shift>
+										<Shift Byte="4F">25</Shift>
+										<Shift Byte="65">20</Shift>
+										<Shift Byte="57">18</Shift>
+										<Shift Byte="64">15</Shift>
+										<Shift Byte="2F">13</Shift>
+									</SubSequence>
+								</ByteSequence>
+								<ByteSequence>
+									<SubSequence MinFragLength="0" Position="1" SubSeqMinOffset="0">
+										<Sequence>3C41707056657273696F6E3E31342E303030303C2F41707056657273696F6E3E</Sequence>
+										<DefaultShift>33</DefaultShift>
+										<Shift Byte="3C">13</Shift>
+										<Shift Byte="41">11</Shift>
+										<Shift Byte="70">9</Shift>
+										<Shift Byte="56">8</Shift>
+										<Shift Byte="65">7</Shift>
+										<Shift Byte="72">6</Shift>
+										<Shift Byte="73">5</Shift>
+										<Shift Byte="69">4</Shift>
+										<Shift Byte="6F">3</Shift>
+										<Shift Byte="6E">2</Shift>
+										<Shift Byte="3E">1</Shift>
+										<Shift Byte="31">20</Shift>
+										<Shift Byte="34">19</Shift>
+										<Shift Byte="2E">18</Shift>
+										<Shift Byte="30">14</Shift>
+										<Shift Byte="2F">12</Shift>
+									</SubSequence>
+								</ByteSequence>
+							</InternalSignature>
+						</InternalSignatureCollection>
+					</BinarySignatures>
+				</File>
+			</Files>
+		</ContainerSignature>
+	</ContainerSignatures>
+	<CreatingApplicationMappings>
+		<!--  v1 -->
+		<CreatingApplicationMapping signatureId="1000" Puid="dev/1"/>
+
+	</CreatingApplicationMappings>
+	<TriggerPuids>
+		<TriggerPuid ContainerType="OLE2" Puid="fmt/111"/>
+		<TriggerPuid ContainerType="ZIP" Puid="fmt/189"/>
+		<TriggerPuid ContainerType="ZIP" Puid="x-fmt/263"/>
+	</TriggerPuids>
+</ContainerSignatureMapping>
